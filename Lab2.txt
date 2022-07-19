@@ -1,6 +1,6 @@
-Step 1 
+ QQStep 1 
 In VScode terminal,cd into the directory "intro-to-aws-lab"and run command "git pull https://github.com/awscloudessentials/intro-to-aws-lab.git" to pull the Lab2.txt file into your local machine
-Open the  .txt file in VScode editor and follow instructions to finish the lab.
+Open the  .txt file in VScode editor. You may choose to split screen in different OS or powershell and work with the split screen  and follow instructions to finish the lab.
 
 Step2  (Create a Key Pair)
 Login into your AWS Console 
@@ -17,7 +17,7 @@ HTTP       Anywhere IPv4
 HTTP       Anywhere IPv6
 
 Step 4 (Create a Launch Template)
-Create Launch template , give it a name and description you prefer.
+Create Launch template , and name it "awslab2" and description you prefer.
 Select “Amazon Linux 2 AMI “ under Application and OS Images
 Select “t2micro “ for instance type
 Select your pre-created Key pair you created in step 2
