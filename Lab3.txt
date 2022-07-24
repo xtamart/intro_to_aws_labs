@@ -1,3 +1,4 @@
+Steps followed to complete assignment.
 Lab3
 Step1 
 On VScode terminal navigate to directory AWSLabs and run command git pull https://github.com/awscloudessentials/intro-to-aws-lab.git
@@ -8,6 +9,7 @@ On AWS Console,
 Go to EC2 dashboard and click launch instances from template.
 Select the template created from previous lab.
 Select Resource tags and input key "Name" and Value "Webserver"
+Select a VPC for Network Subnet. Ensure that you select subnet with same AZ as your instance
 Lauch instance.
 Click on " instances"
 Copy the Public IPv4 address or the Public DNS Address and paste on a new browser page" It should display a webpage with the private ip of your instance"
@@ -17,9 +19,12 @@ Screenshot and send to the group chat for verification.
 Step3
 Go back to your EC2 instance and connect to it using the 'aws cloud shell" not EC2 Connect.
 Upload the key pair of the instance from your local machine into the cloud shell
+Run the command "chmod 400 linux.pem"
 Run the command ls -la to verify that your key is uploaded correctly.
 Run command sudo ssh -i "<keypair name" ec2-user@<public-ip-address>.compute-1.amazonaws.com
 To connect to your EC2 instance
+This will not work at first time. Go back to your Security Group and change the inboud rule for SSH to accept from a specific IP or Accept from all
+Connect to your EC2 instance
 Send screenshoot for confirmation.
 Once confirmed, terminate your instance.
 
