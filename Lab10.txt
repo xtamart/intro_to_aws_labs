@@ -39,5 +39,8 @@ post screen shot
 
 Step 5
 Once confirmed, kindly clean up your AWS account.Delete your bucket ONLY	.
+# Example of awscli command to delete bucket 
+aws s3api delete-bucket --bucket my-bucket --region ca-central-1
+
 Edit the file in VSCode editor, save and push to your personal remote repo.
 
