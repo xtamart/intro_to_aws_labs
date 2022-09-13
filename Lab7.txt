@@ -4,7 +4,7 @@ On VScode terminal navigate to directory AWSLabs and run command git pull https:
 Open the new file(Lab7) in the editor, to allow you add steps you took to complete the lab.
 
 
-Step 2 (Create LT)
+Step 2 (Create Lanch Template)
 On EC2 dashboard click on Launch Template
 Create Launch template with name ASG-LT with description "Webservers for ASG"
 Select Amazon linux 2 AMI
