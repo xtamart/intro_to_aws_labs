@@ -15,7 +15,7 @@ Search and select AmazonSSMManagedInstanceCore --> Next
 Assign the Role name "SSM-EC2-Access"
 Create Role
 
-Step3
+Step 3
 Go back to your EC2, select the EC2 --> click Actions button
 Scroll to Security --> click Modify IAM role
 Click on the drop down button, select role created in step 3
