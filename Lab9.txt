@@ -5,7 +5,7 @@ Open the new file(Lab9) in the editor, to allow you add steps you took to comple
 
 Step 2
 Navigate to the s3 dashboard on your AWS console, click on create bucket
-Give the bucket a name
+Give the bucket a unique name. For Example, DemoS3 may not work.
 Select any region of preference
 Under Object Ownership select "ACLs enabled"
 Unselect "Block all public access"
